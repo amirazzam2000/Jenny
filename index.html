@@ -63,6 +63,8 @@
     .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
     .links a { border-bottom: 1px solid var(--border); padding-bottom: 3px; }
     .footer { text-align: center; color: var(--muted); margin-top: 54px; font-size: 13px; }
+    .gallery-grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   </style>
 </head>
 <body>
@@ -80,15 +82,26 @@
       <h1>Jenny Levack</h1>
       <div class="subtitle">Actor • Screen & Stage</div>
       <div class="portrait" aria-label="Portrait de Jenny Levack"></div>
-      <div class="meta">International actor based in Europe; travels easily for film, TV, and theatre.</div>
+      <div class="meta">Listed on Spotlight & Ivory Production · Nationality: Scotland | England.</div>
+      <p class="lede" style="max-width:640px; margin:18px auto 0;">
+        Two-year conservatoire (Fontainebleau School of Acting, 2022–2024) plus ongoing advanced improv and musical improv with Barcelona Improv Group; recent intensives include Shakespeare Shake Up (London, Jul 2025), self-tape with Jade Rambaut (Apr–May 2025), Finnian Tweed casting workshop (Sep 2025), and Mel Churcher acting intensive (Nov 2025).
+      </p>
     </header>
+
+    <div class="section" id="video" style="text-align:center; margin-top:24px;">
+      <h2>Showreel</h2>
+      <div style="position:relative;padding-top:56.25%;max-width:820px;margin:0 auto;border:1px solid var(--border);border-radius:8px;overflow:hidden;">
+        <iframe src="https://player.vimeo.com/video/1152219511?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0"
+          title="Jenny Levack video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+    </div>
 
     <div class="section" id="links">
       <h2>Quick Links</h2>
       <div class="links">
-        <a href="https://app.spotlight.com/9738-1273-1152" target="_blank" rel="noreferrer">Spotlight</a>
+        <a href="https://app.spotlight.com/9738-1273-1152" target="_blank" rel="noreferrer">Spotlight Profile</a>
         <a href="https://ivoryproduction.com/talent/jenny-levack/" target="_blank" rel="noreferrer">Ivory Production</a>
-        <a href="https://arttmanagement.com/wp-content/uploads/2025/01/JENNY-LEVACK-CLIPPING.pdf" target="_blank" rel="noreferrer">CV PDF</a>
       </div>
     </div>
 
@@ -97,13 +110,13 @@
       <div class="row">
         <div class="contact-card">
           <div class="pill">Representation</div>
-          <p><strong>Ivory Production</strong><br/>Email: <a href="mailto:info@ivoryproduction.com">info@ivoryproduction.com</a></p>
-          <p class="meta">Lead agent: Eva French (via Spotlight). Open to film, TV, theatre, and voice.</p>
+          <p><strong>Ivory Production</strong></p>
+          <p class="meta">See Ivory Production profile for current contact details.</p>
         </div>
         <div class="download-card">
-          <div class="pill">Downloads</div>
+          <div class="pill">Profiles</div>
           <p><a href="https://app.spotlight.com/9738-1273-1152" target="_blank" rel="noreferrer">Spotlight Profile</a></p>
-          <p><a href="https://arttmanagement.com/wp-content/uploads/2025/01/JENNY-LEVACK-CLIPPING.pdf" target="_blank" rel="noreferrer">CV (PDF)</a></p>
+          <p><a href="https://ivoryproduction.com/talent/jenny-levack/" target="_blank" rel="noreferrer">Ivory Production</a></p>
         </div>
       </div>
     </div>
@@ -111,19 +124,21 @@
     <div class="section" id="credits">
       <h2>Theatre & Screen</h2>
       <ul class="list">
-        <li><small>2024</small> <div><strong>Chekhovia</strong> — Ensemble, contemporary creation.</div></li>
-        <li><small>2024</small> <div><strong>Sonnets and Soliloques</strong> — Hermione, Shakespeare collage (Fonact).</div></li>
-        <li><small>2024</small> <div><strong>The Laramie Project</strong> — Rebecca Hilliker / Ensemble, dir. Christian Burgess.</div></li>
-        <li><small>2023</small> <div><strong>Every Brilliant Thing</strong> — Interactive one‑person show on resilience.</div></li>
-        <li><small>2023</small> <div><strong>Hedda Gabler</strong> — Hedda / Aunt Juliana, dir. Lucinda Milward.</div></li>
+        <li><small>2024</small> <div><strong>The Laramie Project</strong> — Marge Murray · Stage · Fonact ensemble · Dir. Christian Burgess.</div></li>
+        <li><small>2023</small> <div><strong>Every Brilliant Thing</strong> — Narrator · Stage · Fonact ensemble · Dir. Christian Burgess.</div></li>
+        <li><small>2023</small> <div><strong>Hedda Gabler</strong> — Mrs Elfsted · Stage · Fonact ensemble · Dir. Lucinda Millward.</div></li>
       </ul>
     </div>
 
     <div class="section" id="training">
       <h2>Training</h2>
       <ul class="list">
-        <li><small>2022–2024</small> <div><strong>Fontainebleau School of Acting (FONACT)</strong> — Conservatory program, France.</div></li>
-        <li><small>Workshops</small> <div>Voice, movement, on-camera, classical text, contemporary theatre.</div></li>
+        <li><small>2022–2024</small> <div><strong>Two-Year Full-Time Professional Conservatoire Program</strong> — Fontainebleau School of Acting.</div></li>
+        <li><small>Improv</small> <div>Ongoing advanced improv & musical improv — Barcelona Improv Group (began 2017 at Escuela de Impro de Barcelona).</div></li>
+        <li><small>2025</small> <div>Shakespeare Shake Up intensive — Scrum Theatre, London (July 2025).</div></li>
+        <li><small>2025</small> <div>6-week self-tape course — Jade Rambaut (Apr–May 2025).</div></li>
+        <li><small>2025</small> <div>Finnian Tweed casting workshop intensive — Barcelona (Sep 2025).</div></li>
+        <li><small>2025</small> <div>3-day acting intensive — coach Mel Churcher (Nov 2025).</div></li>
       </ul>
     </div>
 
@@ -131,12 +146,35 @@
       <h2>Skills</h2>
       <div class="row">
         <div>
-          <p><strong>Acting</strong><br/><span class="meta">Screen and stage; solo and ensemble.</span></p>
-          <p><strong>Voice</strong><br/><span class="meta">Voiceover-ready; clear diction.</span></p>
+          <p><strong>Nationality</strong><br/><span class="meta">Scotland · England.</span></p>
+          <p><strong>Languages (high standard)</strong><br/><span class="meta">Catalan, Portuguese, Spanish.</span></p>
+          <p><strong>Accents</strong><br/><span class="meta">Native: Scottish-Standard; High: American-Midwest, American-New York, American-Standard, Australian, Irish-Northern, RP.</span></p>
+          <p><strong>Voice Over</strong><br/><span class="meta">Animation, Commercials, Corporate, Gaming.</span></p>
         </div>
         <div>
-          <p><strong>Physical</strong><br/><span class="meta">Roller skating; swimming for water stunts.</span></p>
-          <p><strong>Dance</strong><br/><span class="meta">Tango; partner work.</span></p>
+          <p><strong>Movement & Dance</strong><br/><span class="meta">Argentine Tango (highly skilled).</span></p>
+          <p><strong>Performance</strong><br/><span class="meta">Comedy, comedy improv, interactive performance, musical comedy, presenting, storytelling.</span></p>
+          <p><strong>Sports</strong><br/><span class="meta">Mountain hiking (highly skilled); Air rifle shooting, bouldering, rock climbing (SPA), rollerblading, swimming, yoga (incl. Ashtanga).</span></p>
+          <p><strong>Other</strong><br/><span class="meta">Improv theatre & musical improv (advanced); Artistic roller blading.</span></p>
+          <p><strong>Licence</strong><br/><span class="meta">Car driving licence.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="gallery">
+      <h2>Photos</h2>
+      <div class="gallery-grid">
+        <div class="card" style="padding:0;overflow:hidden;">
+          <img src="jenny_1-scaled.jpeg" alt="Jenny Levack 1" style="width:100%;display:block;">
+        </div>
+        <div class="card" style="padding:0;overflow:hidden;">
+          <img src="jenny_3-scaled.jpeg" alt="Jenny Levack 2" style="width:100%;display:block;">
+        </div>
+        <div class="card" style="padding:0;overflow:hidden;">
+          <img src="jennyl_1-scaled.jpg" alt="Jenny Levack 3" style="width:100%;display:block;">
+        </div>
+        <div class="card" style="padding:0;overflow:hidden;">
+          <img src="jennyl_2-scaled.jpg" alt="Jenny Levack 4" style="width:100%;display:block;">
         </div>
       </div>
     </div>
