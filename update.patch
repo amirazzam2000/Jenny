@@ -1,0 +1,77 @@
+*** Begin Patch
+*** Update File: index.html
+@@
+-      <div class="subtitle">Comédienne • Screen & Stage</div>
+-      <div class="portrait">Portrait</div>
+-      <div class="meta">Basée en Europe, mobile pour film, TV et théâtre.</div>
++      <div class="subtitle">Comédienne • Screen & Stage</div>
++      <div class="portrait">Portrait</div>
++      <div class="meta">Actrice internationale, basée en Europe; mobile pour film, TV et théâtre.</div>
+@@
+-      <div class="links">
+-        <a href="https://app.spotlight.com/9738-1273-1152" target="_blank" rel="noreferrer">Spotlight</a>
+-        <a href="https://ivoryproduction.com/talent/jenny-levack/" target="_blank" rel="noreferrer">Ivory Production</a>
+-        <a href="https://arttmanagement.com/wp-content/uploads/2025/01/JENNY-LEVACK-CLIPPING.pdf" target="_blank" rel="noreferrer">CV PDF</a>
+-      </div>
++      <div class="links">
++        <a href="https://app.spotlight.com/9738-1273-1152" target="_blank" rel="noreferrer">Spotlight</a>
++        <a href="https://ivoryproduction.com/talent/jenny-levack/" target="_blank" rel="noreferrer">Ivory Production</a>
++        <a href="https://arttmanagement.com/wp-content/uploads/2025/01/JENNY-LEVACK-CLIPPING.pdf" target="_blank" rel="noreferrer">CV PDF</a>
++      </div>
+     </div>
+@@
+-          <p><strong>Ivory Production</strong><br/>Email : <a href="mailto:info@ivoryproduction.com">info@ivoryproduction.com</a></p>
+-          <p class="meta">Ouverte aux projets film, TV, théâtre et voix.</p>
++          <p><strong>Ivory Production</strong><br/>Email : <a href="mailto:info@ivoryproduction.com">info@ivoryproduction.com</a></p>
++          <p class="meta">Agent principal : Eva French (catalogue Spotlight). Ouverte aux projets film, TV, théâtre et voix.</p>
+         </div>
+         <div class="download-card">
+           <div class="pill">Dossiers</div>
+           <p><a href="https://app.spotlight.com/9738-1273-1152" target="_blank" rel="noreferrer">Profil Spotlight</a></p>
+           <p><a href="https://arttmanagement.com/wp-content/uploads/2025/01/JENNY-LEVACK-CLIPPING.pdf" target="_blank" rel="noreferrer">CV (PDF)</a></p>
+         </div>
+@@
+-      <ul class="list">
+-        <li><small>2024</small> <div><strong>Chekhovia</strong> — Ensemble, explorations Tchekhov.</div></li>
+-        <li><small>2024</small> <div><strong>Sonnets and Soliloques</strong> — Hermione, collage Shakespeare.</div></li>
+-        <li><small>2024</small> <div><strong>The Laramie Project</strong> — Rebecca Hilliker / Ensemble, dir. Christian Burgess.</div></li>
+-        <li><small>2023</small> <div><strong>Every Brilliant Thing</strong> — Seule en scène interactive.</div></li>
+-        <li><small>2023</small> <div><strong>Hedda Gabler</strong> — Hedda & Aunt Juliana, dir. Lucinda Milward.</div></li>
+-      </ul>
++      <ul class="list">
++        <li><small>2024</small> <div><strong>Chekhovia</strong> — Ensemble, création contemporaine.</div></li>
++        <li><small>2024</small> <div><strong>Sonnets and Soliloques</strong> — Hermione, collage Shakespeare (Fonact).</div></li>
++        <li><small>2024</small> <div><strong>The Laramie Project</strong> — Rebecca Hilliker / Ensemble, dir. Christian Burgess.</div></li>
++        <li><small>2023</small> <div><strong>Every Brilliant Thing</strong> — Seule en scène interactive sur la résilience.</div></li>
++        <li><small>2023</small> <div><strong>Hedda Gabler</strong> — Hedda / Tante Juliana, dir. Lucinda Milward.</div></li>
++      </ul>
+     </div>
+ 
+     <div class="section" id="training">
+       <h2>Formation</h2>
+       <ul class="list">
+-        <li><small>2022–2024</small> <div><strong>Fontainebleau School of Acting (FONACT)</strong> — Conservatoire professionnel, France.</div></li>
+-        <li><small>Stages</small> <div>Voix, mouvement, jeu caméra, texte classique, théâtre contemporain.</div></li>
++        <li><small>2022–2024</small> <div><strong>Fontainebleau School of Acting (FONACT)</strong> — Programme conservatoire, France.</div></li>
++        <li><small>Stages</small> <div>Voix, mouvement, jeu caméra, texte classique, théâtre contemporain.</div></li>
+       </ul>
+     </div>
+ 
+     <div class="section" id="skills">
+       <h2>Compétences</h2>
+       <div class="row">
+         <div>
+-          <p><strong>Jeu</strong><br/><span class="meta">Écran et plateau, solo et ensemble.</span></p>
+-          <p><strong>Voix</strong><br/><span class="meta">Voiceover prêt, diction claire.</span></p>
++          <p><strong>Jeu</strong><br/><span class="meta">Écran et plateau, solo et ensemble.</span></p>
++          <p><strong>Voix</strong><br/><span class="meta">Voiceover (VO), diction claire.</span></p>
+         </div>
+         <div>
+-          <p><strong>Physique</strong><br/><span class="meta">Roller, natation (stunts eau).</span></p>
+-          <p><strong>Danse</strong><br/><span class="meta">Tango; travail partenaire.</span></p>
++          <p><strong>Physique</strong><br/><span class="meta">Roller, natation (stunts eau).</span></p>
++          <p><strong>Danse</strong><br/><span class="meta">Tango; travail partenaire.</span></p>
+         </div>
+       </div>
+     </div>
+*** End Patch
